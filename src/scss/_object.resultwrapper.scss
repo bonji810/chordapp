@@ -1,0 +1,10 @@
+.result-wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 0 70px;
+    margin: 50px auto;
+    border-left: 1px solid $lightGray;
+    border-right: 1px solid $lightGray;
+    align-items: center;
+}

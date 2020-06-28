@@ -1,0 +1,429 @@
+@import url(/Users/jinboyuuna/Desktop/chord-site/chordapp/src/scss/_generic.reset.css);
+.bg-1 {
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.bg-2 {
+  background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.bg-3 {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.color-1 {
+  background-color: #ea68a2;
+}
+
+.color-2 {
+  background-color: #f5af91;
+}
+
+.color-3 {
+  background-color: #fff67d;
+  color: #333333;
+}
+
+.color-4 {
+  background-color: #c2dd84;
+}
+
+.color-5 {
+  background-color: #a1d4ac;
+}
+
+.color-6 {
+  background-color: #98d8f6;
+}
+
+.color-7 {
+  background-color: #69a1d5;
+}
+
+.color-8 {
+  background-color: #ce92d8;
+}
+
+.result-color:nth-of-type(1) {
+  background-color: #ea68a2;
+}
+
+.result-color:nth-of-type(2) {
+  background-color: #f5af91;
+}
+
+.result-color:nth-of-type(3) {
+  background-color: #fff67d;
+  color: #333333;
+}
+
+.result-color:nth-of-type(4) {
+  background-color: #c2dd84;
+}
+
+.result-color:nth-of-type(5) {
+  background-color: #a1d4ac;
+}
+
+.result-color:nth-of-type(6) {
+  background-color: #98d8f6;
+}
+
+.result-color:nth-of-type(7) {
+  background-color: #69a1d5;
+}
+
+.result-color:nth-of-type(8) {
+  background-color: #ce92d8;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+select {
+  border: none;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  padding: 10px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex.between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex.center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex.wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.margin-r {
+  margin-right: 30px;
+}
+
+.margin-t {
+  margin-top: 30px;
+}
+
+.margin-b {
+  margin-bottom: 30px;
+}
+
+.margin-l {
+  margin-left: 30px;
+}
+
+.margin {
+  margin: 30px;
+}
+
+.margin-tb {
+  margin: 30px 0;
+}
+
+.margin-lr {
+  margin: 0 30px;
+}
+
+.main-wrapper {
+  max-width: 100%;
+  padding: 50px 100px 70px 70px;
+  margin-left: 300px;
+}
+
+.navigation {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  z-index: 10;
+  max-width: 300px;
+  height: 100vh;
+  padding: 70px 50px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.border {
+  border-bottom: 1px solid #959595;
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.text.question {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.input-text {
+  display: block;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.input-text.textarea {
+  width: 70%;
+  height: 50px;
+}
+
+.chords-wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 30px;
+  border-left: 1px solid #959595;
+  border-right: 1px solid #959595;
+}
+
+.result-wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  padding: 0 70px;
+  margin: 50px auto;
+  border-left: 1px solid #959595;
+  border-right: 1px solid #959595;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.share-wrapper {
+  margin-bottom: 30px;
+}
+
+.nav-item {
+  display: block;
+  font-size: 24px;
+  font-weight: 100;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.nav-item:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nav-item:hover:nth-of-type(1) {
+  color: #ea68a2;
+}
+
+.nav-item:hover:nth-of-type(2) {
+  color: #f5af91;
+}
+
+.nav-item:hover:nth-of-type(3) {
+  color: #f7e500;
+}
+
+.nav-item:hover:nth-of-type(4) {
+  color: #c2dd84;
+}
+
+.nav-item:hover:nth-of-type(5) {
+  color: #a1d4ac;
+}
+
+.nav-item:hover:nth-of-type(6) {
+  color: #98d8f6;
+}
+
+.nav-item:hover:nth-of-type(7) {
+  color: #69a1d5;
+}
+
+.nav-item:hover:nth-of-type(8) {
+  color: #ce92d8;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  margin: 0 0 30px auto;
+  border-radius: 30px;
+  -webkit-box-shadow: 3px 3px 3px rgba(180, 180, 180, 0.4);
+          box-shadow: 3px 3px 3px rgba(180, 180, 180, 0.4);
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.button.playbutton {
+  width: 150px;
+}
+
+.button.next {
+  width: 250px;
+  height: 60px;
+  margin-top: 50px;
+  line-height: 60px;
+  font-size: 24px;
+}
+
+.button.login {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.button.copy {
+  width: 70px;
+  margin: 0 0 30px 30px;
+}
+
+.button > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: 0.8;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button:hover > a {
+  color: #fff;
+}
+
+.button:disabled {
+  color: #959595;
+  opacity: 0.5;
+}
+
+.button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translate(3px, 3px);
+          transform: translate(3px, 3px);
+}
+
+.button.btn-submit {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.button.notes {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  line-height: 70px;
+  margin: 0 auto 10px;
+}
+
+.line {
+  width: 2px;
+  height: 50px;
+  background-color: #000;
+}
+
+.image {
+  width: 100%;
+}
+
+.half {
+  width: 50%;
+}
+
+.chords {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  color: #333;
+  margin-right: 50px;
+  border: 1px dashed #959595;
+  cursor: pointer;
+}
+
+.chords:last-of-type {
+  margin-right: 0;
+}
+
+.item-name {
+  margin-right: 50px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=main.css.map */
