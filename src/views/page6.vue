@@ -779,7 +779,9 @@ export default {
             location.reload();
         },
         logout: function() {
-            firebase.auth().signOut();
+            firebase.auth().signOut().then(user => {
+          this.$router.push("/page5");
+        })
         },
     }
     }
