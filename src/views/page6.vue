@@ -501,7 +501,7 @@ export default {
         drumSetBeat1: function () {
             this.rhythem = this.rhythemPattern.beat1
             this.activecount++
-            if(this.activecount > 0){
+            if(this.activecount > 0 && this.playCount === 8){
                 this.isActive2 = true
                 this.isActive3 = false
             }
@@ -511,7 +511,7 @@ export default {
             this.rhythem = this.rhythemPattern.beat2
             this.bpm = 85
             this.activecount++
-            if(this.activecount > 0){
+            if(this.activecount > 0 && this.playCount  === 8){
                 this.isActive2 = true
                 this.isActive3 = false
             }
@@ -521,7 +521,7 @@ export default {
             this.rhythem = this.rhythemPattern.beat3
             this.bpm = 90
             this.activecount++
-            if(this.activecount > 0){
+            if(this.activecount > 0 && this.playCount === 8){
                 this.isActive2 = true
                 this.isActive3 = false
             }
